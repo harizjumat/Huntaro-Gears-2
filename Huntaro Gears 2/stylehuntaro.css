@@ -1,0 +1,103 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header{
+    background: white;
+    width: 100%;
+    padding: 0px 0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav ul {
+    background-color: #43a286;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+
+}
+    nav ul li:hover {
+        background-color: #399077;
+    }
+
+
+
+table tr td{
+    padding: 25px;
+}
+table tr td img{
+    width: 140px;
+    height: 140px;
+}
+
+th {
+    font-size: 20px;
+    background-color:azure;
+   
+}
+
+#contenthome{
+    
+    max-width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0px 0px 0px 400px;
+
+}
+
+#bannerimage {
+    background-color:white;
+    height:100px;
+    text-align: center;
+
+}
+
+#menubar {background-color: black; height: 23px; box-shadow: 0 0 0; text-align:center;}
+#menu_kiri {margin-top: 6px; 
+            margin-left: 5px; 
+            text-decoration: none; 
+            color: white; 
+            background-color: black;
+            float:left;
+            font-family: Arial, Helvetica, sans-serif;}
+#menu_kiri a:hover{
+    color: grey;
+}
+
+#pagelogin{
+    max-width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0px 0px 0px 400px;
+  text-align: left;
+
+}
+
+footer{
+    background-color:#399077;
+    text-align: center;
+ 
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 0px 0 0;
+}
+
+footer a{
+    color: white;
+}

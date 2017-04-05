@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="huntaromaster.Master.cs" Inherits="Huntaro_Gears_2.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+           <link href="stylehuntaro.css" rel="stylesheet" type="text/css" media="screen" runat="server" />
+    <title>Huntaro's Gears</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+ 
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+      <header>  
+        <img src="image/huntarobanner.jpg"  />
+           <!-- source and design from "https://www.canva.com" -->    
+      </header>   
+
+    <nav>
+        <ul>
+            <a href="Default.aspx"><li>HOME</li></a>
+            <a href="Product.aspx"><li>PRODUCTS</li></a>
+            <a href="Contact.aspx"><li>CONTACT</li></a>
+        </ul>
+    </nav>
+
+    
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+</body>
+
+</html>
+<footer>
+    <p>Validator:<a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> |  <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a> Admin: <a href="Login.aspx">Login</a> </p>
+</footer>
